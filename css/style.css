@@ -293,7 +293,7 @@ nav button{
     bottom: 0;
 } */
 .servizio-image img{
-    width: 29rem;
+    transform: scale(0.9);
     margin: auto;
     border-radius: 5%;
 
@@ -326,6 +326,7 @@ nav button{
     line-height: 1;
     font-size: 1.7rem;
     text-align: center;
+    color: var(--color-primary);
 }
 
 .categorie-social-container{
