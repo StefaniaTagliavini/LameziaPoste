@@ -438,7 +438,7 @@ label{
     gap: 1rem;
     font-size: 1rem;
     margin-top: 0.1rem;
-    margin-left: 4.8rem;
+    margin: 0.1rem 4.5rem 0rem;
 }
  
 #social-icons:hover{
