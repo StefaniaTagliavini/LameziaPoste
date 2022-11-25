@@ -271,7 +271,7 @@ nav button{
 .servizi-container{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .servizi h2{
@@ -292,7 +292,12 @@ nav button{
     right: 0;
     bottom: 0;
 } */
+.servizio-image img{
+    width: 29rem;
+    margin: auto;
+    border-radius: 5%;
 
+}
 .servizio-image .bottone-servizi{
     position: absolute;
     top: 92%;  
@@ -332,7 +337,7 @@ nav button{
 }
 
 .fb-page{
-    margin-left: 6rem;
+    margin: 0 8rem 6rem;
 }
 .contact-form{
     display: flex;
