@@ -414,7 +414,7 @@ label{
     margin-bottom: 1.2rem;
     background-color: white;
     display: flex;
-    margin-left: 1.1rem;
+    margin: 0 auto 1.1rem;
 }
 
 .footer-1 p{
