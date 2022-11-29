@@ -371,16 +371,11 @@ textarea{
 
 .informativa-dati{
     display: flex;
-}
-input[type='checkbox'] {
-   height: 15px;
-   width: 5%;
-   margin-right: 1rem ;
-   margin-top: 0.4rem;
+    margin: 0;
 }
 
 label{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .contact-form .btn{
@@ -569,21 +564,15 @@ iframe {
     /* servizi */
 
    .servizi-container{
-    grid-template-columns: 1fr;
-    gap: 0.7rem;    
-}
-
-    .servizio-image{
-       margin-left: 1rem;
-       margin-right: 1rem;
-       margin-bottom: 0;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;    
     }
 
    .servizio-image .bottone-servizi{
     margin: auto;
-    padding: 0.2rem;
-    font-size: 1rem;
-    border: solid 2px;
+    padding: 0.1rem;
+    font-size: 0.4rem;
+    border: solid 1px;
    }
 
 
