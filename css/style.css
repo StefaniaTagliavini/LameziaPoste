@@ -567,16 +567,15 @@ iframe {
     /* servizi */
 
    .servizi-container{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.7rem;
-   }
+    }
 
    .servizio-image .bottone-servizi{
     margin: auto;
     padding: 0.2rem;
-    font-size: 0.5rem;
-    border: solid 0.1px;
-    
+    font-size: 1rem;
+    border: solid 2px;
    }
 
 
