@@ -618,6 +618,14 @@ iframe {
         margin: 1rem auto;
      }
 
+     .footer-3 p{
+        color: var(--color-white);
+     }
+
+     .informativa-dati input [type = "checkbox"] {
+        width: auto;
+     }
+
     .footer-socials{
         justify-content: center;
     }
