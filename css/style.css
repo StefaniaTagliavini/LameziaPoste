@@ -483,11 +483,11 @@ label{
 
 .created p{
     margin-top: 2rem;
-    color: plum;
+    letter-spacing: 1px;
 }
 
 .created p a{
-    color: plum;
+    color: var(--color-bg2);
 }
 .created p a:hover{
     text-decoration: underline;
