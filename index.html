@@ -43,7 +43,7 @@
             <ul class="menu-float">
                 <li><a href="https://www.instagram.com/lamezia_poste/" target="_blank"><i class="fa-brands fa-instagram" id="icon-social"></i>Seguici su Instagram</a></i></li>
                 <li><a href="https://www.facebook.com/effitagliavini/" target="_blank"><i class="fa-brands fa-facebook" id="icon-social"></i>Seguici su Facebook</a></i></li>
-                <li><a href="https://wa.me/+393394664693"><i class="fa-brands fa-whatsapp" id="icon-social"></i>Scrivici su Whatsapp</a></i></li>
+                <li><a href="https://wa.me/+393394664693" target="_blank"><i class="fa-brands fa-whatsapp" id="icon-social"></i>Scrivici su Whatsapp</a></i></li>
                 <li><a href="mailto:lameziaposte@libero.it"><i class="fa-solid fa-envelope" id="icon-social"></i>Scrivici una mail</a></i></li>
                 <li><a href="tel:+390968407002"><i class="fa-solid fa-phone" id="icon-social"></i>Chiamaci</a></i></li>
             </ul>
@@ -67,7 +67,7 @@
                     <a href="tel:+390968407002"><i class="fa-solid fa-phone"></a></i>
                 </div>
                 <div class="landing-whatsapp">
-                    <a href="https://wa.me/+393394664693"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://wa.me/+393394664693" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                 </div>
             </div> 
 
@@ -131,33 +131,28 @@
 
     <!-- ========= FACEBOOK ========= -->
 
-    <section class="categorie-social">
-        <div class="container categorie-social-container">
-            <div class="categorie-left">
-                <h2>Seguici su facebook</h2>
-                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
-            </div>
+    
+            <section id="contatti-social">
+                <div class="container">
+                    <aside>
+                        <h4>Seguici su facebook</h4>
+                                <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+                                </div> 
+                    </aside>
 
-            <div class="categorie-right">
-                <form  action = "https://formspree.io/f/mqkjvaye" method="POST" class="contact-form">
-                    <h2>Scrivici una mail</h2>
-                    <div class="form-name">
-                        <input type="text" name="first name" placeholder="Nome*" required>
-                        <input type="text" name="last name" placeholder="Cognome*" required>
-                    </div>
-                    <input type="email" name="email address" placeholder="Il tuo indirizzo email*" required>
-                    <textarea name="message" rows="7" placeholder="Messaggio*" required></textarea>
-
-                    <div class="informativa-dati">
-                        <span><input type="checkbox" name="informativa dati" id="informativa" required></span>
-                        <span><label for="checkbox">&nbsp;Dichiaro di aver preso visione dell'Informativa ai sensi del Decreto Legislativo 196/2003 e del Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 Aprile 2016 (GDPR). <a href="#privacypolicy">Privacy Policy</a></label></span>
-                    </div>
-                    
-                    
-                    <button type="submit" class="btn btn-primary">Manda email</button>
-                    
-                </form>
-            </div>
+            <form action = "https://formspree.io/f/mqkjvaye" method="POST" class="contact-form">
+                <h4>Mandaci una mail</h4>
+                <input type="text" name="Nome" placeholder="Nome*" required>
+                <input type="text" name="Cognome" placeholder="Cognome*" required>
+                <input type="email" name="Indirizzo email" placeholder="Il tuo indirizzo email*" required>
+                <textarea name="message" placeholder="Messaggio*" required></textarea>
+                <div class="informativa-dati">
+                    <span><input type="checkbox" name="informativa dati" id="informativa" required></span>
+                    <span><label for="checkbox">&nbsp;Dichiaro di aver preso visione dell'Informativa ai sensi del Decreto Legislativo 196/2003 e del Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio del 27 Aprile 2016 (GDPR). <a href="#privacypolicy">Privacy Policy</a></label></span>
+                </div>
+                <button type="submit" class="btn">Manda email</button>
+            </form>
+        </di>
     </section>
     <!-- ========= FINE FACEBOOK ========= -->
 
@@ -189,7 +184,7 @@
                 <ul class="footer-socials">
                 <li><a href="https://www.instagram.com/lamezia_poste/" target="_blank"><i class="fa-brands fa-instagram" id="social-icons"></i></a></li>
                 <li><a href="https://www.facebook.com/effitagliavini/" target="_blank"><i class="fa-brands fa-facebook" id="social-icons"></i></a></li>
-                <li><a href="https://wa.me/+393394664693"><i class="fa-brands fa-whatsapp" id="social-icons"></i></a></li>
+                <li><a href="https://wa.me/+393394664693" target="_blank"><i class="fa-brands fa-whatsapp" id="social-icons"></i></a></li>
                 <li><a href="mailto:lameziaposte@libero.it"><i class="fa-solid fa-envelope" id="social-icons"></i></a></li>
                 <li><a href="tel:+390968407002"><i class="fa-solid fa-phone" id="social-icons"></i></a></li>
                 </ul>
@@ -208,7 +203,8 @@
         <div class="mappa">
             <h4>Dove siamo</h4>
             <p>Via del progresso 118, Lamezia Terme (CZ)</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.2581906188043!2d16.324149917443847!3d38.96377210000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133fe559020685d5%3A0xc2c63936ba3a49cf!2sLamezia%40Poste!5e0!3m2!1sit!2sit!4v1670287465842!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            <div class="created">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.2581906188043!2d16.324149917443847!3d38.96377210000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133fe559020685d5%3A0xc2c63936ba3a49cf!2sLamezia%40Poste!5e0!3m2!1sit!2sit!4v1670287465842!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>           
+             <div class="created">
                 <p>Created by <a href="https://www.linkedin.com/in/stefaniatagliavini-0611n/">Stefania Tagliavini</a> <i class="fa-solid fa-moon"></i></p>
             </div>
         </div>

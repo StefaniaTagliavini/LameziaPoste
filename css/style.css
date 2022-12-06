@@ -425,71 +425,91 @@ section.landing .landing-socials a:hover{
 
 /* ======== FACEBOOK ========= */
 
-
-.categorie-social h2{
-    line-height: 1;
-    font-size: 1.7rem;
-    text-align: center;
-    color: var(--color-bg2);
-    font-weight: 600;
-    padding: 1rem;
-}
-
-.categorie-social-container{
-    padding: 1rem;
+#contatti-social .container{
     display: grid;
-    grid-template-columns: 40% 60%;
-    box-shadow:  0 2px 10px 0 rgba(0,0,0,0.1);
-    border-radius: 1%;
+    grid-template-columns: 25rem  auto;
+    gap: 5rem;
 }
 
-.fb-page{
-    margin: 0 8rem 6rem;
+#contatti-social aside{
+    background-color: var(--color-bg1);
+    padding: 2rem;
+    border-radius: 15px;
 }
 
-.contact-form{
+
+#contatti-social aside h4{
+    color: var(--color-warning);
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#contatti aside div{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+#contatti-social .contact-form h4{
+    color: var(--color-warning);
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+#contatti-social form{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1rem;
     padding: 1rem;
-    padding-top: 0;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+    border-radius: 15px;
 }
 
-.form-name{
-    display: flex;
-    gap: 1.2rem;
-}
-
-.contact-form input[type="text"]{
-    width: 50%;
-}
-
-input,
-textarea{
-    width: 100%;
-    padding: 1rem;
+#contatti-social form input,
+#contatti-social form textarea{
+    padding: 1.4rem;
     background: var(--color-white);
     border: solid 2px var(--color-primary);
-    border-radius: 5px;
-    color: var(--color-black);
     font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
+#contatti-social form textarea{
+    height: 10rem;
+}
+
+#contatti-social form input::placeholder,
+#contatti-social form textarea::placeholder{
+    color: var(--color-black);
+}
+
+#contatti-social form input:focus,
+#contatti-social form textarea:focus{
+    background: var(--color-grey);
+    color: var(--color-black);
+}
+
+#contatti-social form button{
+    background: var(--color-warning);
+    border-radius: 5px;
+    width: 9rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+#contatti-social form button:hover{
+    background:var(--color-bg1);
+    color: var(--color-white);
 }
 
 .informativa-dati{
-    display: flex;
     margin: 0;
     font-size: small;
 }
-
-.contact-form .btn{
-    width: max-content;
-    margin-top: 1rem;
-    cursor: pointer;
-    margin-bottom: 5rem;
-}
-
-
-
 /* ======== FACEBOOK fine ========= */
 
 /* ======== FOOTER ========= */
@@ -640,7 +660,7 @@ iframe {
 
     .nav-menu{
         position: fixed;
-        top: 3.5rem;
+        top: 5rem;
         right: 5%;
         height: fit-content;
         width: 90%;
@@ -760,40 +780,23 @@ iframe {
     }
 
    .servizi-container{
-    grid-template-columns: 1fr;
-    row-gap: 1rem;
-   }
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
 
 
     /* categorie */
 
-     .categorie-social-container{
-        grid-template-columns: 1fr;
-        gap: 3rem;
-        margin-top: 0;
-        padding: 0;
-     }
-
-     .contact-form{
-        margin: 0 1.5rem 3rem;
-     }
-
-     .form-name{
-        flex-direction: column;
-    }
-
-    .form-name input[type="text"]{
-        width: 100%;
-    }
-
-    .categorie-right h2{
-        margin-top: 2rem;
-    }
-     .categorie-left{
+     #contatti-social aside{
         display: none;
      }
-  
      
+     #contatti-social .container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+
     /* footer */
 
      .footer-container{
