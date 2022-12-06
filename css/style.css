@@ -396,7 +396,7 @@ section.landing .landing-socials a:hover{
     font-size: large;
     font-weight: 500;
     margin-top: 1rem;
-    color: var(--color-bg2);
+    color: var(--color-warning);
     transition: var(--transition);
 }
 
