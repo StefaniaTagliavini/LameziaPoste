@@ -879,6 +879,7 @@ iframe {
 
     .servizi button .testo{
         color: var(--color-bg1);
+        margin-left: 1.4rem;
     }
 
     /* categorie */
