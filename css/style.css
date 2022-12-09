@@ -863,12 +863,22 @@ iframe {
 
    .servizi-container{
         grid-template-columns: 1fr;
+        margin-top: -2rem;
         row-gap: 1rem;
     }
 
     .servizi-container img{
         width: 14rem;
         height: 14rem;
+    }
+
+    .servizi button{
+        background: var(--color-warning);
+        border-radius: 25px;
+    }
+
+    .servizi button .testo{
+        color: var(--color-bg1);
     }
 
     /* categorie */
