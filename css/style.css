@@ -882,6 +882,11 @@ iframe {
         margin-left: 1.4rem;
     }
 
+    .servizi button .freccia{
+        background-color: var(--color-bg1);
+        transform: translateX(1rem);
+    }
+    
     /* categorie */
 
      #contatti-social aside{
