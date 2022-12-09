@@ -359,6 +359,7 @@
         width: 9rem;
         transition: var(--transition);
         cursor: pointer;
+        font-weight: 500;
     }
 
     #contatti form button:hover{

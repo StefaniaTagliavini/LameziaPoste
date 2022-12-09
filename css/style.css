@@ -445,6 +445,7 @@ section.landing .landing-socials a:hover{
     color: var(--color-warning);
     line-height: 1.6;
     text-align: center;
+    font-weight: 500;
     transition: all 0.4s ease-in-out;
     width: 10rem;
     
@@ -581,6 +582,7 @@ button:hover .testo{
     width: 9rem;
     transition: var(--transition);
     cursor: pointer;
+    font-weight: 500;
 }
 
 #contatti-social form button:hover{
@@ -886,7 +888,7 @@ iframe {
         background-color: var(--color-bg1);
         transform: translateX(1rem);
     }
-    
+
     /* categorie */
 
      #contatti-social aside{
