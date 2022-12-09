@@ -335,6 +335,7 @@
         border: solid 2px var(--color-primary);
         font-family: 'Roboto', sans-serif;
         border-radius: 5px;
+        resize: none;
     }
 
     #contatti form textarea{

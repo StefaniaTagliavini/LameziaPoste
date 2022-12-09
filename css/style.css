@@ -382,7 +382,7 @@ section.landing .landing-socials a:hover{
 .servizi{
     padding-top: 0;
     background-color: var(--color-bg1);
-    
+    padding-bottom: 1rem;
 }
 
 .servizi h2{
@@ -412,19 +412,97 @@ section.landing .landing-socials a:hover{
 }
 
 .servizio-image{
-    background: var(--color-white);
     padding: 1rem 1rem;
     text-align: center;
     display: flex;
     flex-direction: column;
     cursor: default;
     transition: var(--transition);
-    border-radius: 5%;
 }
 
 .servizio-image img{
     border-radius: 5%;
+    width: 350px;
+    margin: auto;
 }
+
+.servizi button{
+    margin: 3rem auto 1rem;
+    border: 0;
+    display: block;
+    width: 12rem;
+    height: auto;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+}
+
+.testo{
+    position: absolute;
+    inset: 0;
+    padding: 0.9rem 0;
+    margin-left: 1.8rem;
+    color: var(--color-warning);
+    line-height: 1.6;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    width: 10rem;
+    
+}
+
+.cerchio{
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-warning);
+    border-radius: 1.625rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.icona{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.freccia{
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+    transition: all 0.4s ease-in-out;
+ 
+}
+
+.freccia::before{
+    content: "";
+    position: absolute;
+    top: -0.3rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid var(--color-bg1);
+    border-right: 0.125rem solid var(--color-bg1);
+    transform: rotate(45deg);
+}
+
+button:hover .cerchio{
+    width: 100%;
+}
+
+button:hover .freccia{
+    background-color: var(--color-bg1);
+    transform: translateX(1rem);
+}
+
+button:hover .testo{
+    color: var(--color-bg1);
+}
+
+
 
 /* ======== FACEBOOK ========= */
 
@@ -479,6 +557,7 @@ section.landing .landing-socials a:hover{
     border: solid 2px var(--color-primary);
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
+    resize: none;
 }
 
 #contatti-social form textarea{
@@ -779,7 +858,7 @@ iframe {
     .servizi{
         padding-top: 0;
         margin-top: 0;
-        background-color: var(--color-primary);
+        background-color: var(--color-bg1);
     }
 
    .servizi-container{
@@ -787,6 +866,10 @@ iframe {
         row-gap: 1rem;
     }
 
+    .servizi-container img{
+        width: 13rem;
+        height: 13rem;
+    }
 
     /* categorie */
 
