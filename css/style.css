@@ -260,6 +260,18 @@ nav button{
 }
 
 
+
+.img-container{
+    background: url(../images/lameziaposte-esterni.jpeg);
+    height: 25rem;
+    width: 100%;
+    background-position: 15% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: flex;
+    margin: auto;
+}
+
 /* ======== landing ========= */
 
 .landing{
