@@ -261,6 +261,7 @@ nav button{
 
 /* ======= container ======= */
 
+
 .img-container{
     background: linear-gradient(rgba(4, 1, 27, 0.418), rgba(31, 62, 163, 0.164)), url(../images/delivery-employees-working-together.jpg);
     height: 25rem;
@@ -791,6 +792,21 @@ iframe {
         border-bottom: none;
     }
 
+        /* banner */
+
+    .img-container{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .inner-container{
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .inner-container h1{
+      margin-bottom: 10rem;
+    }
 
     /* banner */
 
