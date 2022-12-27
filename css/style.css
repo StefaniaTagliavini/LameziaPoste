@@ -261,15 +261,26 @@ nav button{
 
 
 
+
 .img-container{
-    background: url(../images/lameziaposte-esterni.jpeg);
+    background: linear-gradient(rgba(4, 1, 27, 0.418), rgba(31, 62, 163, 0.164)), url(../images/delivery-employees-working-together.jpg);
     height: 25rem;
     width: 100%;
-    background-position: 15% 55%;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: flex;
     margin: auto;
+}
+
+.inner-container{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 2px black;
+    margin-top: 200px;
+
 }
 
 /* ======== landing ========= */
@@ -790,6 +801,21 @@ iframe {
         border-bottom: none;
     }
 
+        /* banner */
+
+    .img-container{
+        width: 100%;
+        height: 15rem;
+    }
+
+    .inner-container{
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .inner-container h1{
+      margin-bottom: 10rem;
+    }
 
 
       /* landing */
