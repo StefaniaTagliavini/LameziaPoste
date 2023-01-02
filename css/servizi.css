@@ -259,7 +259,8 @@
         color: rgba(26, 35, 63, 0.692);
     }
 
-    /* ======== SERVIZI  ======== */
+    /* ======== BANNER ======== */
+
 
     .img-container{
         background: linear-gradient(rgba(4, 1, 27, 0.418), rgba(31, 62, 163, 0.164)), url(../images/delivery-employees-working-together.jpg);
@@ -282,6 +283,7 @@
     
     }
 
+    /* ======== SERVIZI  ======== */
 
     .servizi{
         color: var(--color-warning);
@@ -289,27 +291,33 @@
     }
 
     .feature-list{
-        width: var(--container-width-lg);
+        width: 70%;
         display: flex;
         margin: 1rem auto;
     }
 
-    .feature-list:nth-child(3){
+    .feature-list:nth-child(odd){
         flex-direction: row-reverse;
-        /*per metterlo nell'altra direzione*/
+         /*per metterlo nell'altra direzione*/
     }
     
     .feature-list__image {
-        width: 10rem;
-        height: 10rem;
+        width: 13rem;
+        height: auto;
     }
     
     .feature-list__desc {
         /* Take the remaining width */
+        background-color: var(--color-bg1);
         flex: 1;
         padding: 2rem;
-        color: var(--color-black);
+        color: var(--color-warning);
     }
+
+    .feature-list .feature-list__desc p{
+            font-size: 1.5rem;
+    }
+   
 
     /* ======== FOOTER ========= */
 
