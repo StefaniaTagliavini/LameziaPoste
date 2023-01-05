@@ -259,14 +259,14 @@ nav button{
     color: rgba(26, 35, 63, 0.692);
 }
 
-/* ======= container ======= */
+/* ======= banner home ======= */
 
 
 .img-container{
-    background: linear-gradient(rgba(4, 1, 27, 0.418), rgba(31, 62, 163, 0.164)), url(../images/delivery-employees-working-together.jpg);
+    background: linear-gradient(rgba(4, 1, 27, 0.418), rgba(31, 62, 163, 0)) , url(../images/banner-home.jpg);
     height: 25rem;
     width: 100%;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: flex;
@@ -321,7 +321,7 @@ section.landing .landing-socials a:hover{
 }
 
 .landing-info h3{
-    margin: 2.4rem 0 1rem;
+    margin: 1rem 0 1rem;
     color: var(--color-warning);
 }
 
@@ -329,6 +329,16 @@ section.landing .landing-socials a:hover{
     width: 35rem;
 }
 
+.landing-info a{
+    text-decoration: underline;
+    color:rgb(92, 118, 235);
+}
+
+.landing-info a:hover{
+    color: var(--color-warning);
+}
+
+ 
 .landing-img-area{
     display: flex;
     justify-content: center;
@@ -336,8 +346,8 @@ section.landing .landing-socials a:hover{
 }
 
 .landing-img-area .cerchio-esterno{
-    width: 26rem;
-    height: 26rem;  
+    width: 24rem;
+    height: 24rem;  
     border: 1px solid var(--color-primary);
     border-radius: 50%;
     position:relative;
@@ -379,8 +389,8 @@ section.landing .landing-socials a:hover{
 
 .landing-img-area .cerchio-interno{
    position: absolute;
-   width: 18rem;
-   height: 18rem;
+   width: 20rem;
+   height: 20rem;
    border-radius: 50%;
    overflow: hidden;
 }
@@ -421,7 +431,7 @@ section.landing .landing-socials a:hover{
 
 .servizi-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem; 
 }
 
@@ -436,7 +446,7 @@ section.landing .landing-socials a:hover{
 
 .servizio-image img{
     border-radius: 5%;
-    width: 350px;
+    width: 250px;
     margin: auto;
 }
 

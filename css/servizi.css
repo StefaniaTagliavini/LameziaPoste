@@ -277,7 +277,7 @@
         text-align: center;
         position: absolute;
         width: 100%;
-        color: white;
+        color: var(--color-warning);
         text-shadow: 1px 2px black;
         margin-top: 200px;
     
@@ -285,38 +285,74 @@
 
     /* ======== SERVIZI  ======== */
 
-    .servizi{
-        color: var(--color-warning);
-        
-    }
-
     .feature-list{
-        width: 70%;
+        width: 60%;
         display: flex;
         margin: 1rem auto;
     }
 
-    .feature-list:nth-child(odd){
-        flex-direction: row-reverse;
-         /*per metterlo nell'altra direzione*/
+   /* Reverse the order of image and content */
+   .feature-list:nth-child(even){
+    flex-direction: row-reverse;
+   }
+    
+    .feature-list__image img{
+        border-radius: 0px 0px 0px 0px;
+        width: 280px;
+        height: 280px;
+      
+    }
+
+    .feature-list:nth-of-type(even) .feature-list__image img{
+        border-radius: 0px 20px 20px 0px;
+        border: solid 8px #424676;
     }
     
-    .feature-list__image {
-        width: 13rem;
-        height: auto;
+    .feature-list:nth-of-type(odd) .feature-list__image img{
+        border: solid 8px var(--color-bg1);
+        border-radius: 20px 0px 0px 20px;
     }
-    
+
     .feature-list__desc {
         /* Take the remaining width */
-        background-color: var(--color-bg1);
         flex: 1;
         padding: 2rem;
+    }
+
+    .feature-list:nth-of-type(even) .feature-list__desc{
+        background-color: #424676;
+        border-radius: 10px 0px 0px 10px;
+        color: white;
+    }
+
+    .feature-list:nth-of-type(odd) .feature-list__desc{
+        background-color: var(--color-bg1);
+        border-radius: 0px 10px 10px 0px;
+        color: white;
+    }
+    
+
+    .feature-list .feature-list__desc h1{
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .feature-list:nth-of-type(even) .feature-list__desc h1{
         color: var(--color-warning);
     }
 
-    .feature-list .feature-list__desc p{
-            font-size: 1.5rem;
+    .feature-list:nth-of-type(odd) .feature-list__desc h1{
+        color: var(--color-warning);
     }
+
+
+    .feature-list .feature-list__desc p{
+            font-size: 1.3rem;
+            margin-top: 1rem;
+    }
+
+ 
    
 
     /* ======== FOOTER ========= */
