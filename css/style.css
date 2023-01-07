@@ -935,10 +935,6 @@ iframe {
         gap: 2rem;
     }
 
-    input[type=checkbox] {
-        transform: none;
-        -webkit-transform: scale(1,1);
-    }
 
     /* footer */
 
