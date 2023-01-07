@@ -935,8 +935,8 @@ iframe {
         gap: 2rem;
     }
 
-    input[type=checkbox]{
-        padding: 0;
+    input[type=checkbox] {
+        -webkit-transform: scale(3,3);
     }
 
     /* footer */
