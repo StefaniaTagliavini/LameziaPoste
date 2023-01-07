@@ -935,6 +935,10 @@ iframe {
         gap: 2rem;
     }
 
+    input[type=checkbox]{
+        padding: 0;
+    }
+
     /* footer */
 
      .footer-container{
