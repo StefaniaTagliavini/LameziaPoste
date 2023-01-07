@@ -262,6 +262,10 @@
     
     /* ======== CONTATTI ========= */
 
+    #contatti{
+        padding: 5rem 0rem 2rem;
+    }
+
     #contatti .container{
         display: grid;
         grid-template-columns: 20rem 20rem auto;

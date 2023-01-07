@@ -292,15 +292,14 @@
     }
 
    /* Reverse the order of image and content */
-   .feature-list:nth-child(even){
-    flex-direction: row-reverse;
-   }
+    .feature-list:nth-child(even){
+        flex-direction: row-reverse;
+    }
     
     .feature-list__image img{
         border-radius: 0px 0px 0px 0px;
         width: 280px;
         height: 280px;
-      
     }
 
     .feature-list:nth-of-type(even) .feature-list__image img{
@@ -539,7 +538,7 @@
     }
 
 
-    /* servizi */
+    /* banner */
 
     .img-container{
         width: 100%;
@@ -554,6 +553,75 @@
     .inner-container h1{
       margin-bottom: 10rem;
     }
+
+
+    /* servizi */ 
+
+    .servizi{
+        padding: 0;
+    }
+
+    .feature-list {
+        width:  100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .feature-list:nth-child(even){
+        flex-direction: column;
+    }
+
+    .feature-list:nth-child(even) .feature-list__image {
+        background-color: var(--color-bg1);
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .feature-list:nth-child(odd) .feature-list__image {
+        background-color: #424676;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .feature-list__image img{
+        border-radius: 0px 0px 0px 0px;
+        width: 200px;
+        height: 200px;
+        margin: 1rem auto 0;
+    }
+    
+    .feature-list:nth-of-type(even) .feature-list__image img{
+        border-radius: 20px 20px 20px 20px;
+        border: solid 8px var(--color-bg1);
+    }
+    
+    .feature-list:nth-of-type(odd) .feature-list__image img{
+        border: solid 8px #424676;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    .feature-list:nth-of-type(even) .feature-list__desc{
+        background-color: var(--color-bg1);
+        border-radius: 0px 0px 0px 0px;
+        color: white;
+    }
+
+    .feature-list:nth-of-type(odd) .feature-list__desc{
+        background-color: #424676;
+        border-radius: 0px 0px 0px 0px;
+        color: white;
+    }
+    
+    .feature-list__desc{
+        padding-top: 1rem;
+    }
+    
+    .feature-list .feature-list__desc h1{
+        font-size: 1.3rem;
+    }
+
+    .feature-list .feature-list__desc p{
+        font-size: 1rem;
+}
+
 
     
     /* footer */
