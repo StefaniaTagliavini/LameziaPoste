@@ -931,7 +931,6 @@ iframe {
      
      #contatti-social .container{
         grid-template-columns: 1fr;
-        text-align: center;
         gap: 2rem;
     }
 
@@ -950,10 +949,6 @@ iframe {
 
      .footer-3 p{
         color: var(--color-white);
-     }
-
-     .informativa-dati input [type = "checkbox"] {
-        width: 10%;
      }
 
     .footer-socials{
