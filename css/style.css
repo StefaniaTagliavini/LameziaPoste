@@ -936,6 +936,7 @@ iframe {
     }
 
     input[type=checkbox] {
+        transform: none;
         -webkit-transform: scale(3,3);
     }
 
